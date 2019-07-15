@@ -16,8 +16,8 @@ btn.addEventListener('click', function () {
         div.appendChild(name);
         let nameText = document.createTextNode(friends[i]);
         name.appendChild(nameText);
-    }
-        for (var j = 0; j < 100; j++) {
+    
+        for (var j = 99; j > 0; j--) {
             count--
             count2 = count - 1
          if (count == 1) {
@@ -28,11 +28,12 @@ btn.addEventListener('click', function () {
          }
             let lyrics = document.createElement('p');
             div.appendChild(lyrics);
-            let lyricsText = createTextNode(count + " " + word + " of code in the file, " + count + " " + word + " of code; " + friends[i] + " strikes one out, clears it all out, " + count2 + " " + word + " of code in the file.");
+            let lyricsText = document.createTextNode(count + " " + word + " of code in the file, " + count + " " + word + " of code; " + friends[i] + " strikes one out, clears it all out, " + count2 + " " + word + " of code in the file.");
             lyrics.appendChild(lyricsText);
             console.log(count + " " + word + " of code in the file, " + count + " " + word + " of code; " + friends[i] + " strikes one out, clears it all out, " + count2 + " " + word + " of code in the file.");
         }
-    })  
+    }
+})  
         
         
     

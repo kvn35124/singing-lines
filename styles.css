@@ -13,3 +13,13 @@ h1 {
 h3 {
     text-transform: uppercase;
 }
+
+button { 
+    width: 200px;
+    background-color: chartreuse;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 100px;
+    font-size: 25px;
+
+}
